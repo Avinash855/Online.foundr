@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Entrepreneurship Course</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(120deg, #0b0b0b, #003300); /* Black and dark green gradient */
+            margin: 0;
+            padding: 0;
+            color: #fff;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: #1e1e1e; /* Darker container background */
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+        h1 {
+            text-align: center;
+            color: #00ff88; /* Fresh green color for the headline */
+            margin-bottom: 25px;
+            font-size: 2.5em;
+        }
+        .sub-headline {
+            text-align: center;
+            color: #ffcc00; /* Bright yellow color for the sub-headline */
+            margin-bottom: 20px;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .logo {
+            display: block;
+            margin: 0 auto 30px;
+        }
+        .thumbnail {
+            display: block;
+            margin: 0 auto 30px;
+            width: 100%;
+            max-width: 650px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        }
+        .description {
+            text-align: left;
+            font-size: 18px;
+            margin: 20px 0;
+            padding: 25px;
+            background-color: #333;
+            border-radius: 12px;
+            line-height: 1.6;
+            color: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+        .description ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .description li {
+            margin-bottom: 15px;
+            font-size: 16px;
+            padding: 12px;
+            background-color: #444;
+            border-radius: 8px;
+            border-left: 4px solid #00ff88;
+        }
+        .description li strong {
+            color: #00ff88;
+        }
+        .reviews {
+            background-color: #333;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 30px 0;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+        }
+        .reviews h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #00ff88;
+            font-size: 2em;
+        }
+        .review {
+            background-color: #444;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            font-size: 16px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .review:hover {
+            transform: scale(1.02);
+            background-color: #555;
+        }
+        .paypal-button {
+            display: block;
+            width: 220px;
+            margin: 30px auto;
+            padding: 15px;
+            background-color: #0070ba;
+            color: #fff;
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 8px;
+            text-decoration: none;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+        .paypal-button:hover {
+            background-color: #005a93;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Logo -->
+        <img src="https://i.imgur.com/hT7OSho.jpg" alt="Company Logo" class="logo" width="200" height="100">
+
+        <!-- Headline -->
+        <h1>Unlock Advanced Entrepreneurship Strategies to Elevate Your Business!</h1>
+
+        <!-- New Sub-Headline -->
+        <p class="sub-headline">Get instant access to the video after payment!</p>
+
+        <!-- Thumbnail -->
+        <img class="thumbnail" src="https://i.imgur.com/Ll56Pg6.jpg" alt="Course Thumbnail">
+
+        <!-- Description -->
+        <div class="description">
+            <ul>
+                <li><strong>Core Business Strategies:</strong> Learn the fundamental strategies that drive successful enterprises.</li>
+                <li><strong>Innovative Leadership Skills:</strong> Cultivate skills to lead dynamically and effectively.</li>
+                <li><strong>Scaling Your Operations:</strong> Discover methods for expanding your operations efficiently.</li>
+                <li><strong>Data-Driven Decision Making:</strong> Harness the power of data to enhance decision-making.</li>
+                <li><strong>Global Market Expansion:</strong> Strategies for entering and succeeding in new markets.</li>
+                <li><strong>Team Building & Management:</strong> Techniques for forming and managing effective teams.</li>
+                <li><strong>Sustainable Growth Techniques:</strong> Implement sustainable practices for long-term success.</li>
+            </ul>
+        </div>
+
+        <!-- Customer Reviews -->
+        <div class="reviews">
+            <h2>What Our Customers Say</h2>
+            <div class="review">
+                "This course transformed the way I approach business! Highly recommended." – John D.
+            </div>
+            <div class="review">
+                "Incredible insights, worth every dollar!" – Sarah K.
+            </div>
+            <div class="review">
+                "The best $99 investment I made for my business." – David P.
+            </div>
+        </div>
+
+        <!-- PayPal Payment Button -->
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_xclick">
+            <input type="hidden" name="business" value="sonux066@gmail.com">
+            <input type="hidden" name="item_name" value="Advanced Entrepreneurship Course">
+            <input type="hidden" name="amount" value="99.00">
+            <input type="hidden" name="currency_code" value="USD">
+            <!-- Return link after payment completion -->
+            <input type="hidden" name="return" value="https://nephobox.com/s/1iH67KmyKXe0qHUP2kBIxqw">
+            <input type="hidden" name="rm" value="2">
+            <input type="submit" value="Buy Now for $99" class="paypal-button">
+        </form>
+    </div>
+
+    <footer>
+        &copy; 2024 Advanced Entrepreneurship Course. All rights reserved.
+    </footer>
+
+</body>
+</html>
